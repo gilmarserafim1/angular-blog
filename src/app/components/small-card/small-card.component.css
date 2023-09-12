@@ -1,0 +1,37 @@
+.small-card {
+    display: flex;
+    flex-direction: row;
+    margin: .5rem 0;
+}
+
+
+.small-card__img {
+    width: 40%;
+    margin: 0 .5rem;
+}
+
+.small-card__img  img {
+    aspect-ratio: 1.78/1;
+    width: 100%;
+}
+
+.small-card__description {
+    width: 60%;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.small-card__description h2 {
+    color: #2e2e2e;
+    font-size: .5rem;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+.small-card__description h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+    margin-top: .5rem;
+}
