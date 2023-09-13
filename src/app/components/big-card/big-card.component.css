@@ -4,30 +4,15 @@
 }
 
 
-.big-card__img {
-    width: 100%;
-    margin: .25rem 0;
-}
-
 .big-card__img  img {
-    aspect-ratio: 1.78/1;
     width: 100%;
-}
-
-.big-card__date {
-    width: 100%;
-    margin: .25rem 0;
+    aspect-ratio: 1/.6;    
 }
 
 .big-card__date h2 {
-    color: #2e2e2e;
-    font-size: 1rem;
+    font-size: .75rem;
     font-weight: bold;
-}
-
-.big-card__title {
-    width: 100%;
-    margin: .25rem 0;
+    opacity: .3;
 }
 
 .big-card__title h1 {
@@ -35,13 +20,7 @@
     font-weight: bold;
 }
 
-.big-card__description {
-    width: 100%;
-    margin: .25rem 0;
-}
-
 .big-card__description p {
-    color: #2e2e2e;
-    font-size: 1.25rem;
-    font-weight: bold;
+    font-size: 1rem;
+    opacity: .3;
 }
